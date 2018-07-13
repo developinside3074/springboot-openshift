@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/openshift")
+@RequestMapping(value = "/")
 public class OpenShiftController {
 
-    @GetMapping(value = "/test")
+    @GetMapping(value = "test")
     public String getMessage(){
 
         return "Esta en una prueba de un Proyecto SpringBoot en Openshift";
