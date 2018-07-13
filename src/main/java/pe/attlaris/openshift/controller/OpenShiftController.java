@@ -12,7 +12,7 @@ public class OpenShiftController {
     @GetMapping(value = "test")
     public String getMessage(){
 
-        return "Esta en una prueba de un Proyecto SpringBoot";
+        return "Esta en una prueba de un Proyecto SpringBoot en openshift";
     }
 
 
